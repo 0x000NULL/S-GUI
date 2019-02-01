@@ -1,4 +1,4 @@
-# CyberPatriot
+# S-GUI
 ## Made by Ethan Aldrich
 ### Dont forget to read the read me!!
 
