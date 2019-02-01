@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane xmlns:fx="http://javafx.com/fxml/1" alignment="center" hgap="10" prefHeight="600.0" prefWidth="590.0"
+          vgap="10" xmlns="http://javafx.com/javafx/8" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints/>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+        <RowConstraints/>
+    </rowConstraints>
+    <children>
+        <ScrollPane prefHeight="595.0" prefWidth="580.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="577.0" prefWidth="570.0">
+                    <children>
+                        <TabPane layoutY="-1.0" prefHeight="579.0" prefWidth="571.0" tabClosingPolicy="UNAVAILABLE">
+                            <tabs>
+                                <Tab text="Introduction">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0"
+                                                    prefWidth="200.0"/>
+                                    </content>
+                                </Tab>
+                                <Tab text="Windows">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <ChoiceBox layoutX="14.0" layoutY="436.0" prefWidth="150.0"/>
+                                                <ChoiceBox layoutX="181.0" layoutY="436.0" prefWidth="150.0"/>
+                                                <Button layoutX="505.0" layoutY="436.0" mnemonicParsing="false"
+                                                        text="Button"/>
+                                                <ProgressBar layoutX="14.0" layoutY="485.0" prefHeight="18.0"
+                                                             prefWidth="544.0" progress="0.0"/>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                                <Tab text="Linux">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <ChoiceBox layoutX="14.0" layoutY="436.0" prefWidth="150.0"/>
+                                                <ChoiceBox layoutX="181.0" layoutY="436.0" prefWidth="150.0"/>
+                                                <Button layoutX="505.0" layoutY="436.0" mnemonicParsing="false"
+                                                        text="Button"/>
+                                                <ProgressBar layoutX="14.0" layoutY="485.0" prefHeight="18.0"
+                                                             prefWidth="544.0" progress="0.0"/>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                                <Tab text="Debian">
+                                    <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                            <children>
+                                                <ChoiceBox layoutX="14.0" layoutY="436.0" prefWidth="150.0"/>
+                                                <ChoiceBox layoutX="181.0" layoutY="436.0" prefWidth="150.0"/>
+                                                <Button layoutX="505.0" layoutY="436.0" mnemonicParsing="false"
+                                                        text="Button"/>
+                                                <ProgressBar layoutX="14.0" layoutY="485.0" prefHeight="18.0"
+                                                             prefWidth="544.0" progress="0.0"/>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                            </tabs>
+                        </TabPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</GridPane>
