@@ -7,12 +7,12 @@
 
 ### 1. Linux 
 1. Run open a new terminal window and as root, `sudo su` run `apt update` followed by `apt install git`
-2. Run the command `git clone https://github.com/ethanaldrich9986/CyberPatriot.git`
-3. `cd CyberPatriot/Linux` followed by `chmod +x runme.sh` then `./runme.sh`
+2. Run the command `git clone https://github.com/ethanaldrich9986/S-GUI.git`
+3. `cd S-GUI/Linux` followed by `chmod +x runme.sh` then `./runme.sh`
 4. continue through to the end of the script and watch the points sky rocket!
 5. Browse the lists folder and work on compleating the image. Dont forget to read the read me!!
 ### 2. Windows
-1. Go to https://github.com/ethanaldrich9986/CyberPatriot and click `Clone or Download` then `Download ZIP`
+1. Go to https://github.com/ethanaldrich9986/S-GUI and click `Clone or Download` then `Download ZIP`
 2. Extract the .zip and open the folder then open 'Windows'
 3. Open powershell as an administrator and run `PowerShell.exe -ExecutionPolicy UnRestricted powershell` to get an unrestricted powershell session.
 4. Run `./RUNME.bat`
@@ -22,7 +22,7 @@
 	
 ### 3. Debian
 1. `sudo su` run `apt update` followed by `apt install git`
-2. Run the command `git clone https://github.com/ethanaldrich9986/CyberPatriot.git`
-3. `cd CyberPatriot/Debian` followed by `chmod +x runme.sh` then `./runme.sh` YOU WILL GET MANY ERRORS!!!
+2. Run the command `git clone https://github.com/ethanaldrich9986/S-GUI.git`
+3. `cd S-GUI/Debian` followed by `chmod +x runme.sh` then `./runme.sh` YOU WILL GET MANY ERRORS!!!
 4. continue through to the end of the script and watch the points sky rocket!
 5. Browse the lists folder and work on compleating the image. Dont forget to read the read me!!
